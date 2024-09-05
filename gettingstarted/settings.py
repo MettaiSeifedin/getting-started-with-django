@@ -54,7 +54,7 @@ if IS_HEROKU_APP:
     ALLOWED_HOSTS = [
     'localhost', 
     '127.0.0.1', 
-    'github-actions-django-tuto-2.onrender.com',
+    'github-actions-django-tuto-5.onrender.com',
     # Add other hosts if needed
     ]
 else:
