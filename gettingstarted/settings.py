@@ -60,7 +60,7 @@ if IS_HEROKU_APP:
     # Add other hosts if needed
     ]
 else:
-    ALLOWED_HOSTS = [".localhost", "127.0.0.1", "[::1]", "0.0.0.0", 'github-actions-django-tuto-6.onrender.com', 'github-actions-django-tuto-7.onrender.com']
+    ALLOWED_HOSTS = [".localhost", "127.0.0.1", "[::1]", "0.0.0.0", '*', 'getting-started-with-django-cicd.onrender.com', 'github-actions-django-tuto-6.onrender.com', 'github-actions-django-tuto-7.onrender.com']
 
 
 # Application definition
